@@ -2,31 +2,7 @@
 <html>
  <head>
      <title>A TRIBUTE PAGE</title>
-<style>
-     #main {
-        background-color: lightblue;
-        margin: 30px;
-    }
-    #img-div {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-        margin:auto;
-      }
-     
-    ul { display: inline-block; text-align: left; }
-    h1 {
-        font-size: 60px;
-    }
-    h2 {
-        padding-top: 60px;
-        padding-bottom: 10px;
-    }
-    #title{
-        text-align: center;
-    }
-</style>    
+    <link rel="stylesheet" href="style.css">
  </head>
  <body id="main">
     <h1 id="title">Mr Nobody</h1>

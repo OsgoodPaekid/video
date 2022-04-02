@@ -3,12 +3,9 @@
     <head>
         <title>A Form</title>
         <style>
-            #title{
+            
 
-            }
-            #description{
-
-            }
+            
         </style>
     </head>
     <body>

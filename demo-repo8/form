@@ -1,0 +1,23 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>A Form</title>
+        <style>
+            #title{
+
+            }
+            #description{
+
+            }
+        </style>
+    </head>
+    <body>
+<h1>Ready Dispatch Survey Form</h1>
+<p>Thank you for taking your time to help improve our website</p>
+<form>
+    Name
+    <input type="text" placeholder="Enter Your Name">
+</form>
+
+    </body>
+</html>

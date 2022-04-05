@@ -1,5 +1,6 @@
 #main {
     background-color: lightblue;
+    margin: 20px;
 }
 #img-div {
     display:inline-block;

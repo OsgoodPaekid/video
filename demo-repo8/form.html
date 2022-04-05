@@ -3,19 +3,34 @@
     <head>
         <title>A Form</title>
         <style>
-            #title{
+          #title{
+        
+              text-align: center;
+          }
+          #survey-form{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-template-areas: 
+            "header header header"
+            "advert content content"
+            "advert footer footer";
 
-            }
-            #description{
-
-            }
+          }
+         
+          .form1{
+              grid-area: content;
+              background: aqua;
+          }
         </style>
     </head>
     <body>
-<h1>Ready Dispatch Order Form</h1>
+<div id="title">
+<h1 id="title">Ready Dispatch Order Form</h1>
 <p>Thank you for choosing us</p>
-<form>
-   <p>Name</p> 
+</div>
+<div id="survey-form" class="d1">  
+<form class="form1">
+  <div><p>Name</p> 
     <input type="text" placeholder="Enter Your Name" required>
 </form>
 <form>
@@ -67,6 +82,7 @@ Any comments or suggestions?
     <input type="text" placeholder="Enter your commment here...">
 </form>
 <input type="submit" placeholder="Submit">
-
+</div> 
+</div>
     </body>
 </html>

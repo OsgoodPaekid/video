@@ -4,8 +4,8 @@
         <title>A Form</title>
         <style>
           #title{
-        
-              text-align: center;
+              background-attachment: fixed;
+              background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMSRiP95NM9z6sXCgNxuvwiujnH9dKPH6Dbw&usqp=CAU);
           }
           #survey-form{
             display: grid;
@@ -14,18 +14,22 @@
             "header header header"
             "advert content content"
             "advert footer footer";
-
           }
          
           .form1{
               grid-area: content;
-              background: aqua;
+              background: rgb(0, 255, 213);
+              padding: 10px 10px 10px 10px;
+              border-radius: 10px;
+          }
+          #comment{
+              padding: 10px 10px 10px 10px;
           }
         </style>
     </head>
-    <body>
-<div id="title">
-<h1 id="title">Ready Dispatch Order Form</h1>
+    <body id="title">
+<div style="text-align: center;">
+<h1>Ready Dispatch Order Form</h1>
 <p>Thank you for choosing us</p>
 </div>
 <div id="survey-form" class="d1">  
@@ -78,9 +82,9 @@ What would you like to see improved?<br>
     <label for="Rider">Rider</label><br>
 
 Any comments or suggestions?
-<form>
-    <input type="text" placeholder="Enter your commment here...">
+<form id="comment">
 </form>
+    <textarea name="textarea" rows="5" cols="40">Enter comment here...</textarea><br>
 <input type="submit" placeholder="Submit">
 </div> 
 </div>

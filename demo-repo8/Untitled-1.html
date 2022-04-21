@@ -3,7 +3,7 @@
     <head>
         <title>Documentation page</title>
     <style>
-            #header-img {
+        #header-img {
             position: absolute;
             top: -90px
         }
@@ -37,29 +37,49 @@
         #ho{
             text-align: center;
         }
+        #bigcash{
+           display: flex;
+           flex-direction: row;
+           justify-content: space-around;
+           height: 100px;
+           width: 50%;
+           padding: 70px;
+        }
+        #resi{
+            width: 15%;
+            height: auto;
+        }
+        main .mag{
+            display: flex;
+            justify-content: center;
+        }
     </style>
     </head>
-    <body>
+    <body style="background-color: rgb(203, 203, 224);">
         <header>
             <nav id="navbar">
-            <h1><a href="#Orignal" id="sands">Original Trombones</a></h1>
-            <p id="move">Features</p> 
-           <p id="and">How it works</p>
-           <p id="sand">Pricing</p> 
+                <h1><a href="#Orignal" id="sands">Original Guns</a></h1>
+                <p id="move">Features</p> 
+                <p id="and">How it works</p>
+                <p id="sand">Pricing</p> 
+            
+                <div id="header-img">
+                    <img src="gun_shop_ammunition_weapons_73966_1600x900.jpg" width="180" height="200">
+                </div>
             </nav>
-            <div id="header-img">
-            <img src="https://us.123rf.com/450wm/djati11/djati111808/djati11180800105/105671036-star-logo-template-vector-icon-illustration-design.jpg?ver=6" width="200" height="300">
-            </div>
         </header>
         <main>
             <div id="ho">
                 <h1>Hand crafted, Home Made masterpiece</h1> 
                 <input type="email" placeholder="Enter your email" required><br>
-                <input type="submit"> 
+                <input type="submit" value="Get Started"> 
             </div>
-            <div>
-                
+            <div id="bigcash">
+                <img src="gun_bullets_metal_weapons_39256_1600x900.jpg" alt="a gun" id="resi"> <h1>Premium Materials</h1><br>
             </div>
-        </main>
+            <div class="mag">
+                A powerful gun by all standards
+            </div>
+        </main> 
     </body>
 </html>

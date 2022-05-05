@@ -3,18 +3,98 @@
     <head>
         <title>Testing another landing page</title>
     <style>
+        .header{
+            padding: 20px;
+        }
+    
+        .header nav .menu{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            position: fixed;
+            padding: 20px;
+            top: 0;
+            left: 0;
+            right: 0;
+        }
+        .menu-item{
+            margin-left: 20px;
+        }
+        .hero-section{
+            margin-top: 10px;
+            text-align: center;  
+        }
+        .hero-section-title{
+            font-size: 15px;
+            font-weight: bold;
+        }
+        .hero-section-button button{
+            background-color: rgb(138, 156, 59);
+            border: none;
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-top: 10px;
+            padding: 12px;
+            width: 15%;
+        }
+        .hero-section-input input{
+            width: 16%;
+            padding: 8px;
+        }
+        .bullet-section{
+            width: 100%;
+            height: 15%;
+            margin-top: 50px;
+        }
+        .bullet-section-title{
+           position: absolute;
+           right: 20%;
+           top: 30%;
+           margin-top: 30px;
+        }
 
+        .bullet-section-img img{
+            width: 10%;
+            height: 8%;
+            border-radius: 90px;
+            margin-left: 80px;
+        }
     </style>
 
     </head>
     <body>
-        <div>
-            <div>Features</div> 
-            <div>How It works</div>
-            <div>Pricing</div>
+        <div class="header">
+            <nav>
+                <div class="menu">
+                    <div class="menu-item">Features</div> 
+                    <div class="menu-item">How It works</div>
+                    <div class="menu-item">Pricing</div>
+                </div>             
+            </nav>
         </div>
-        <div></div>
-        <div></div>
+        <div class="hero-section">
+            <div class="hero-section-title">
+                <h2><p>Handcrafted, home made masterpieces</p></h2>
+            </div>
+            <div class="hero-section-input">
+                <input type="email" placeholder="Enter your Email">
+            </div>
+            <div class="hero-section-button">
+                <button>Get Started</button>
+            </div>
+        </div>
+        <div class="bullet-section">
+            <div class="bullet-section-img">
+                <img src="https://picsum.photos/200" alt="item icon" height="150px"/>
+            </div>
+            
+            <div class="bullet-section-title">
+                <h2>Premium Materials</h2>
+                <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p><br>
+            </div>
+        </div>    
+       
+    
         <div></div>
         <div></div>
 
